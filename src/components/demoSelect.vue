@@ -1,0 +1,93 @@
+<template>
+  <div>
+    <!-- dis表示禁止点击  no表示没有右侧小图标 -->
+    <VantSelect
+      dis
+      no
+      v-model="sex"
+      whichload="sexData"
+      label="性别"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="retireStatus"
+      whichload="retireStatusData"
+      label="离退休状态"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="cognizanceConclusion"
+      whichload="cognizanceConclusionData"
+      label="工伤认定结论"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="diseasesNameOne"
+      whichload="diseasesNameData"
+      label="职业病名称1"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="selfcareDisorderLevel"
+      whichload="selfcareDisorderLevelData"
+      label="生活自理障碍等级"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="injuryLevel"
+      whichload="injuryLevelData"
+      label="伤残等级"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="oldInjuryFlag"
+      whichload="oldInjuryFlagData"
+      label="老工伤标识"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="isThirdPerson"
+      whichload="isThirdPersonData"
+      label="是否涉及第三人"
+      placeholder="--"
+    />
+    <VantInput
+      disabled
+      v-model="nation"
+      label="民族"
+      placeholder="--"
+    />
+    <VantSelect
+      dis
+      no
+      v-model="certType"
+      whichload="drawerCertificateTypeData"
+      label="证件类型"
+      placeholder="--"
+    />
+  </div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
