@@ -46,8 +46,8 @@ module.exports = {
           'SwitchCase': 1
       }],
     },
-    // parserOptions: {
-    //   parser: 'babel-eslint'
-    // }
+    parserOptions: {
+      parser: 'babel-eslint'
+    }
   }
   
